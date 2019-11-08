@@ -8,11 +8,12 @@ const LinkContainer = ({ links }) => {
   return (
     <div className="nav__linkContainer">
       {
-        links.map(link => {
+        links.map((link,i)=> {
           switch (link.type) {
             case "button":
               return (
                 <ButtonBox
+                  key = {i + `${link.type}`}
                   name="Quiero ser Cuboxer"
                   type="small"
                 />
@@ -20,6 +21,7 @@ const LinkContainer = ({ links }) => {
             default:
               return  (
                 <Link
+                  key = {i + `${link.type}`}
                   name={link.name}
                   url={link.url}
                   type={link.type}

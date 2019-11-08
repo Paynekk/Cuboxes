@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import KnowMore from './KnowMore'
 import ImageContainer from './ImageContainer';
 import { Row, Col } from 'react-flexbox-grid';
@@ -20,4 +21,9 @@ const knowMoreContainer = ({ title, description}) => {
 		</Row>
 	);
 }
+
+knowMoreContainer.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired
+};
 export default knowMoreContainer;
