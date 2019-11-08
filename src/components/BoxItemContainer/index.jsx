@@ -2,7 +2,7 @@ import React from 'react';
 import BoxItem from './BoxItem'
 import { Row, Col } from 'react-flexbox-grid';
 import './styles.scss'
-import Link from '../NavContainer/LinkContainer/Link';
+import ButtonBox from '../ButtonBox';
 
 
 const BoxItemContainer = ({ boxItems }) => {
@@ -23,13 +23,13 @@ const BoxItemContainer = ({ boxItems }) => {
       </div>
       <Row>
         <Col xs={12} sm={12} md={12} lg={12}>
-          <div className="boxitemcontainer__containerButton">
-            <Link
-             className="boxitemcontainer__containerButton__button"
-              name="Quiero ser un Cuboxer"
-              url="#"
-            />
-          </div>
+        <div className="boxitemcontainer__containerButton">
+          <ButtonBox 
+            name="Quiero aplicar para ser un Cuboxer"
+            type="larger"
+            onHandlerClick={() => alert("Quiero ser Cuboxer")}
+          />
+        </div>
         </Col>
       </Row>
     </div>

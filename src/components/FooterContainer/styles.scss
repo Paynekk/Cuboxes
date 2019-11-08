@@ -1,0 +1,36 @@
+.foother{
+  background-color: #212121;
+  height: 160px;
+}
+
+.footer_container_containerImg{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  border-bottom: solid 2px #373331;
+}
+
+.footer_container_containerImg_image{
+  width: 140.1px;
+  height: 21.7px;
+}
+
+.footer_container_socialMedia{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_container_socialMedia_logo{
+  width: 22px;
+}
+
+.footer_container_social{
+  height: 75px;
+  align-items: center;
+}
+
+.footer_container_pageInfo{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}

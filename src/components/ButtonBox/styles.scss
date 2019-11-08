@@ -1,0 +1,39 @@
+%red-buttons {
+  display: flex;
+  justify-content: center;
+  background-color: #fc3a52;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.buttonbox_text{
+  align-self: center;
+  color: white;
+}
+
+.buttonbox--larger {
+  @extend %red-buttons;
+  width: 540px;
+  height: 55px; 
+}
+
+.buttonbox--small {
+  @extend %red-buttons;
+  width: 190px;
+  height: 42px; 
+}
+
+.buttonbox--smallContorno {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 6px;
+  border: solid 2px #fc3a52;
+  cursor: pointer;
+  width: 190px;
+  height: 42px; 
+
+  .buttonbox_text{
+    align-self: center;
+    color: #fc3a52;
+  }
+}

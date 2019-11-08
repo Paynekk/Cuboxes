@@ -1,5 +1,5 @@
 
-.nav__linkContainer__link{
+%links {
   font-size: 16px;
   font-weight: 500px;
   font-stretch: normal;
@@ -8,5 +8,15 @@
   letter-spacing: normal;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
+  align-self: center;
+}
+
+.nav__linkContainer__normalLink--red{
+   @extend %links;
+  color:#fc3a52;
+}
+
+.nav__linkContainer__normalLink--normal{
+   @extend %links;
   color: black;
 }
