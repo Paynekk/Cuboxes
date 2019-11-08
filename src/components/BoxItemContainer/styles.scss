@@ -1,0 +1,18 @@
+.boxitemcontainer{
+  display:flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.boxitemcontainer__containerButton{
+  display: flex;
+  justify-content: center;
+  background-color: #fc3a52;
+  border-radius: 6px;
+  width: 540px;
+  height: 55px;
+
+  .boxitemcontainer__containerButton__button {
+    color: white;  
+  }
+}
