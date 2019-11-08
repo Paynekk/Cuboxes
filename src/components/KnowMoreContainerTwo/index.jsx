@@ -9,7 +9,7 @@ import { ip } from 'address';
 
 const knowMoreContainerTwo = ({ title, description }) => {
 	return (
-		<Row className={`knowMoreContainerTwo`}>
+		<Row className={'knowMoreContainerTwo'}>
 			<Col xs={12} sm={3} md={2} lg={6}>
 				<ImageContainer />
 			</Col>
