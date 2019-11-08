@@ -1,3 +1,14 @@
+.knowMoreContainer_knowMoreTwo{
+  margin-top: 195px;
+  margin-left: 180px;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  
+
+  
+}
+
 .knowMoreContainer_knowMore_textTwo{
   font-size: 22px;
   font-weight: 500;
@@ -5,6 +16,7 @@
   font-style: normal;
   line-height: 1.45;
   letter-spacing: normal;
+  
 }
 
 .knowMoreContainer_knowMore_tittleTwo{
@@ -16,8 +28,8 @@
   letter-spacing: normal;
 }
 
-.knowMoreContainer_knowMoreTwo{
-  margin-top: 195px;
-  margin-left: 180px;
-  text-align: end;
+.knowMoreContainer_knowMoreTwo_button{
+ display: flex;
+ justify-content: flex-end; 
 }
+

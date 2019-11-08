@@ -12,10 +12,13 @@ const knowMore = ({ title, description }) => {
       <p className={`knowMoreContainer_knowMore_textTwo`}>
         {description}
       </p>
-      <ButtonBox
+      <div className="knowMoreContainer_knowMoreTwo_button">
+      <ButtonBox 
         name="Quiero ser Cuboxer"
         type="smallContorno"
       />
+      </div>
+      
     </div>
 
   );
